@@ -10,7 +10,7 @@
 	</parameters>
 
 	<services>
-		<service id="fkr_css_url_rewrite.css_url_fixer" class="%fkr_css_url_rewrite.css_url_rewrite.class%">
+		<service id="fkr_css_url_rewrite.css_url_fixer" class="%fkr_css_url_rewrite.css_url_rewrite.class%" public="true">
 			<argument>%fkr_css_url_rewrite.css_url_rewrite.rewrite_only_if_file_exists%</argument>
 			<argument>%fkr_css_url_rewrite.css_url_rewrite.clear_urls%</argument>
 			<argument type="service" id="kernel" />
