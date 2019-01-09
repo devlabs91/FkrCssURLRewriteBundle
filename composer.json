@@ -1,5 +1,5 @@
 {
-	"name": "fkr/cssurlrewrite-bundle",
+	"name": "devlabs91/cssurlrewrite-bundle",
 	"type": "symfony-bundle",
 	"description": "A small assetic filter for symfony to fix all url paths at css documents to correct urls",
 	"keywords": ["Assetic", "Symfony Bundle", "css", "asset", "css url", "rewrite", "cssrewrite"],
