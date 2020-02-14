@@ -17,8 +17,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('fkr_css_url_rewrite');
+        $treeBuilder = new TreeBuilder('fkr_css_url_rewrite');
+        $rootNode = $treeBuilder->getRootNode();
 
         $rootNode
             ->children()
